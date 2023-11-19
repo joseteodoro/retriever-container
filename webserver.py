@@ -4,7 +4,7 @@ import os
 import cgi
 import urllib.parse
 
-PORT = 8000  # Change this to your desired port number
+PORT = 15000  # Change this to your desired port number
 UPLOADS_DIR = "./uploads"
 
 class UploadHandler(http.server.SimpleHTTPRequestHandler):

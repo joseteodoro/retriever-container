@@ -9,7 +9,7 @@ COPY webserver.py /app/
 RUN mkdir /app/uploads
 
 # Expose the port that the server will listen on (change if necessary)
-EXPOSE 8000
+EXPOSE 15000
 
 # Run the server when the container launches
 CMD ["python", "webserver.py"]
